@@ -1,0 +1,33 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#56CCF2" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#56CCF2" stop-opacity="0.36" />
+      <stop offset="100%" stop-color="#0B1224" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" rx="80" fill="#010815" />
+  <circle cx="200" cy="220" r="100" fill="url(#glow)" />
+  <circle cx="620" cy="160" r="120" fill="rgba(168,85,247,0.16)" />
+  <g opacity="0.88">
+    <path d="M400 560C340 560 300 520 300 460C300 420 340 380 400 380C460 380 500 420 500 460C500 520 460 560 400 560Z" fill="#0F172A" />
+    <path d="M400 380C372 380 348 358 348 330C348 302 372 280 400 280C428 280 452 302 452 330C452 358 428 380 400 380Z" fill="#0A1225" />
+    <path d="M400 280C382 280 368 266 368 248C368 230 382 216 400 216C418 216 432 230 432 248C432 266 418 280 400 280Z" fill="#38BDF8" />
+    <path d="M400 348C360 348 330 318 330 278C330 244 362 218 400 218C438 218 470 244 470 278C470 318 440 348 400 348Z" stroke="url(#grad1)" stroke-width="14" />
+  </g>
+  <path d="M200 500C220 470 250 440 284 420C298 430 314 442 330 452C348 462 370 468 396 470" stroke="#A855F7" stroke-width="8" stroke-linecap="round" opacity="0.9" />
+  <path d="M600 500C580 470 550 440 516 420C502 430 486 442 470 452C452 462 430 468 404 470" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" opacity="0.9" />
+  <circle cx="216" cy="654" r="18" fill="#38BDF8" opacity="0.8" />
+  <circle cx="584" cy="674" r="14" fill="#A855F7" opacity="0.78" />
+  <circle cx="280" cy="130" r="20" fill="rgba(255,255,255,0.12)" />
+  <circle cx="530" cy="110" r="14" fill="rgba(59,130,246,0.16)" />
+  <path d="M220 200C304 180 406 156 504 192" stroke="#60A5FA" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+  <path d="M220 235C280 220 340 210 420 230" stroke="#A855F7" stroke-width="5" stroke-linecap="round" opacity="0.55" />
+  <path d="M384 560C350 550 322 522 310 490" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+  <path d="M420 550C455 540 486 508 496 470" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+  <path d="M140 540C188 520 220 500 244 462" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" opacity="0.55" />
+  <path d="M660 540C610 520 580 500 564 462" stroke="#A855F7" stroke-width="4" stroke-linecap="round" opacity="0.55" />
+</svg>
